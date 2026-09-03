@@ -246,6 +246,11 @@ footer a:hover{color:#fff}
   .mbar{display:grid;grid-template-columns:1fr 1fr 1.3fr;position:fixed;bottom:0;left:0;right:0;z-index:60;background:var(--deep);border-top:1px solid rgba(255,255,255,.12);padding:8px;gap:8px}
   .mbar a{font-size:15px;padding:12px 8px;min-height:52px}
 }
+/* Below ~340px the brand tagline cannot fit on one line alongside the burger;
+   drop it rather than let the header overflow. */
+@media (max-width:340px){
+  .brand-text small{display:none}
+}
 
 /* ==========================================================================
    Interior pages (service detail, contact, 404)
