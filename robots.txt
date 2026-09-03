@@ -1,0 +1,9 @@
+# A&H Construction
+# Staging note: while this build is on a preview URL, uncomment the Disallow
+# line below so the preview is not indexed. Remove it at launch.
+
+User-agent: *
+Allow: /
+# Disallow: /
+
+Sitemap: https://www.constructionah.com/sitemap.xml
