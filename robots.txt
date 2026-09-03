@@ -1,9 +1,10 @@
 # A&H Construction
-# Staging note: while this build is on a preview URL, uncomment the Disallow
-# line below so the preview is not indexed. Remove it at launch.
+# Staging build: crawling is blocked while the site is on a preview URL.
+# re-enable crawling at production launch
+# (delete the Disallow line below and keep "Allow: /")
 
 User-agent: *
 Allow: /
-# Disallow: /
+Disallow: /
 
 Sitemap: https://www.constructionah.com/sitemap.xml
